@@ -1,0 +1,62 @@
+body {
+  background-image: url("backgrounds.ac5249f5.jpg");
+}
+
+.title {
+  text-align: center;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+.links {
+  background: radial-gradient(#fff, #d3d3d3);
+  border: 3px solid #000;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  font-size: 24px;
+  display: flex;
+}
+
+a:link {
+  color: #50586f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.info {
+  margin-top: 18px;
+}
+
+.newsheader {
+  text-align: center;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.images {
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  bottom: -38px;
+}
+
+.infoHeader {
+  text-align: center;
+  justify-content: space-around;
+  text-decoration: underline;
+  display: flex;
+  position: relative;
+  bottom: -38px;
+  left: -27px;
+}
+
+.info {
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  left: -8px;
+}
+/*# sourceMappingURL=Project2.aa5dde08.css.map */

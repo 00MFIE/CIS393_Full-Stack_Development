@@ -1,0 +1,57 @@
+body{
+     background-image: url("images/backgrounds.jpg");
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.links{
+
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    font-size: 24px;
+    background: radial-gradient(white,lightgray);
+    border-radius: 5px;
+    
+}
+a:link {
+  color: rgb(80, 88, 111); 
+  text-decoration: none; 
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.info{
+    margin-top: 18px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -8px;
+
+}
+
+.form{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: radial-gradient(white,lightgray);
+    max-width: 440px;
+    width: 60%;     
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.formElements{
+    position: relative;
+    left: 20px;
+}

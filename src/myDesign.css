@@ -1,0 +1,61 @@
+body{
+     background-image: url("images/backgrounds.jpg");
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.links{
+
+     display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    font-size: 24px;
+    background: radial-gradient(white,lightgray);
+    border-radius: 5px;
+}
+a:link {
+  color: rgb(80, 88, 111); 
+  text-decoration: none; 
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.info{
+    margin-top: 18px;
+}
+.newsheader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: -38px; 
+}
+.infoHeader{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    left: -27px;
+    bottom: -38px;
+    text-decoration: underline;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -8px;
+
+
+}

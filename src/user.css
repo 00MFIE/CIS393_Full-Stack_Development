@@ -1,0 +1,103 @@
+body{
+     background-image: url("images/backgrounds.jpg");
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.links{
+
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    font-size: 24px;
+    background: radial-gradient(white,lightgray);
+    border-radius: 5px;
+    
+}
+a:link {
+  color: rgb(80, 88, 111); 
+  text-decoration: none; 
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.info{
+    margin-top: 18px;
+}
+
+.infoHeader{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    left: -27px;
+    bottom: -60px;
+    text-decoration: underline;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -8px;
+
+}
+
+.avatar{
+    position: relative;
+    left: 90px;
+    top: 120px;  
+    border-radius: 100px;
+    filter: grayscale(0%);
+    transition: filter 0.5s ease;
+}
+.avatar:hover {
+    filter: grayscale(100%);
+}
+.desc{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 300px;
+    top: -20px; 
+}
+
+.username{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 450px;
+    top: -260px; 
+}
+.infos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 377px;
+    top: -220px; 
+    font-size: 12px;
+}
+.About{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    border-bottom: 1px solid #000;  width: 75%;
+    top: -160px; 
+    left: 295px;
+    max-width: 500px;
+}
+.story{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    border-bottom: 1px solid #000;  width: 75%;
+    top: -140px; 
+    left: 295px;
+    max-width: 500px;
+    
+}
+.elements{
+    display: flex;
+}

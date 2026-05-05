@@ -1,0 +1,131 @@
+.info {
+  justify-content: space-around;
+  margin-top: 18px;
+  display: flex;
+  position: relative;
+  left: -8px;
+}
+
+.form {
+  background: radial-gradient(#fff, #d3d3d3);
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 60%;
+  max-width: 440px;
+  margin: 0 auto;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+.formElements {
+  position: relative;
+  left: 20px;
+}
+
+body {
+  background-image: url("backgrounds.ac5249f5.jpg");
+}
+
+.title {
+  text-align: center;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+.links {
+  background: radial-gradient(#fff, #d3d3d3);
+  border: 3px solid #000;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  font-size: 24px;
+  display: flex;
+}
+
+a:link {
+  color: #50586f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.info {
+  margin-top: 18px;
+}
+
+.infoHeader {
+  text-align: center;
+  justify-content: space-around;
+  text-decoration: underline;
+  display: flex;
+  position: relative;
+  bottom: -60px;
+  left: -27px;
+}
+
+.info {
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+  left: -8px;
+}
+
+.avatar {
+  filter: grayscale(0%);
+  border-radius: 100px;
+  transition: filter .5s;
+  position: relative;
+  top: 120px;
+  left: 90px;
+}
+
+.avatar:hover {
+  filter: grayscale();
+}
+
+.desc {
+  font-family: Georgia, Times New Roman, Times, serif;
+  position: relative;
+  top: -20px;
+  left: 300px;
+}
+
+.username {
+  font-family: Georgia, Times New Roman, Times, serif;
+  position: relative;
+  top: -260px;
+  left: 450px;
+}
+
+.infos {
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 12px;
+  position: relative;
+  top: -220px;
+  left: 377px;
+}
+
+.About {
+  border-bottom: 1px solid #000;
+  width: 75%;
+  max-width: 500px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  position: relative;
+  top: -160px;
+  left: 295px;
+}
+
+.story {
+  border-bottom: 1px solid #000;
+  width: 75%;
+  max-width: 500px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  position: relative;
+  top: -140px;
+  left: 295px;
+}
+
+.elements {
+  display: flex;
+}
+/*# sourceMappingURL=Project2.9f367d21.css.map */
