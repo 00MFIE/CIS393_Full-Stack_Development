@@ -1,0 +1,21 @@
+[{
+  "_id": 123,
+  "username": "CatFan",
+  "name": "Sam Cisney",
+  "DOB": "May 25 2004",
+  "Country": "USA",
+  "Join": "March 6 2026",
+  "About": "hi"
+},
+{
+  "_id": {
+    "$oid": "69f66f1eacf3a9da49e7ed3a"
+  },
+  "username": "DogFan",
+  "name": "James Smith",
+  "DOB": "2025-03-25",
+  "Country": "USA",
+  "Join": "2026-05-02",
+  "About": "Testing",
+  "__v": 0
+}]
