@@ -1,3 +1,6 @@
+Starting page:
+-
+intro.js
 
 DEPENDENCIES INSTALLATION:
 -
